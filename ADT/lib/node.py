@@ -3,7 +3,7 @@ class Node:
 	# data: The data to store
 	# previous: The previous node in the chain
 	# next: The next node in a chain
-	def __init__(self, data, previous=None, next=None)
+	def __init__(self, data, previous=None, next=None):
 		self.data = data
 		self.previous = previous
 		self.next = next
